@@ -191,74 +191,41 @@ The application separates the user interface, API communication and backend func
 
 ---
 
-## 6. User Interface
+## 6. Screenshots
 
-StudyHub contains several screens that provide access to the application's main functionality.
+The following screenshots demonstrate the main functionality and user interface of the StudyHub Android application.
 
-### Login Screen
+### Login
 
-The login screen allows registered users to enter their email address and password.
+![StudyHub Login](screenshots/login.png)
 
-**Screenshot**
+### Registration
 
-_Add Login Screen screenshot here._
-
-### Registration Screen
-
-The registration screen allows new users to create an account.
-
-**Screenshot**
-
-_Add Registration Screen screenshot here._
+![StudyHub Registration](screenshots/registration.png)
 
 ### Dashboard
 
-The dashboard provides an overview of the student's academic progress.
+![StudyHub Dashboard](screenshots/dashboard.png)
 
-**Screenshot**
+### Tasks
 
-_Add Dashboard screenshot here._
+![StudyHub Tasks](screenshots/tasks.png)
 
-### Tasks Screen
+### Subjects
 
-The tasks screen allows students to create, view, complete and delete tasks.
+![StudyHub Subjects](screenshots/subjects.png)
 
-**Screenshot**
+### Exams and Calendar
 
-_Add Tasks Screen screenshot here._
+![StudyHub Exams](screenshots/exams.png)
 
-### Subjects Screen
+### Focus Timer
 
-The subjects screen allows students to manage their academic subjects.
+![StudyHub Focus Timer](screenshots/focus.png)
 
-**Screenshot**
+### Profile and Settings
 
-_Add Subjects Screen screenshot here._
-
-### Exams Screen
-
-The exams screen allows students to record and manage upcoming examinations.
-
-**Screenshot**
-
-_Add Exams Screen screenshot here._
-
-### Focus Screen
-
-The focus screen provides the Pomodoro-style study timer.
-
-**Screenshot**
-
-_Add Focus Timer screenshot here._
-
-### Profile Screen
-
-The profile screen allows users to update their account information and log out.
-
-**Screenshot**
-
-_Add Profile Screen screenshot here._
-
+![StudyHub Profile](screenshots/profile.png)
 ---
 
 ## 7. System Architecture
@@ -727,31 +694,24 @@ Future versions of StudyHub could include:
 
 ---
 
-## 22. Video Demonstration
+## 22. Video Presentation
 
-A video demonstration of the StudyHub application will demonstrate the main features of the system.
+A video presentation demonstrating the StudyHub application, its main features, user interface, database integration, and functionality is provided below.
 
-The video will include:
+**Video Link:https://youtube.com/shorts/ihqA0jQDwOA?si=qXBmA_MvUxK4tG5b
 
-- Application launch
-- User registration
-- Login
-- Dashboard
+The presentation demonstrates:
+
+- User registration and login
+- Dashboard and progress information
 - Task management
 - Subject management
-- Examination management
+- Exam and calendar management
 - Focus timer
-- Progress tracking
 - Profile and settings
-- Logout
-
-### Video Link
-
-_Add the final video link here._
-
-Example:
-
-https://www.youtube.com/watch?v=YOUR_VIDEO_ID
+- REST API communication
+- Database integration
+- Input validation and error handling
 
 ---
 
