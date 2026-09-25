@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/background">
+
+    <!-- Header -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/ic_menu_revert"
+            android:background="@android:color/transparent"
+            android:contentDescription="Back"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Focus Timer"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_primary"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/btnReset"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/ic_popup_sync"
+            android:background="@android:color/transparent"
+            android:contentDescription="Reset"/>
+
+    </LinearLayout>
+
+    <!-- Focus / Break buttons -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_timer_selector">
+
+        <Button
+            android:id="@+id/btnFocus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Focus"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:backgroundTint="@color/purple_primary"/>
+
+        <Button
+            android:id="@+id/btnBreak"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Break"
+            android:textColor="@color/purple_primary"
+            android:backgroundTint="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <!-- Timer -->
+
+    <TextView
+        android:id="@+id/txtTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="25:00"
+        android:textSize="64sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_primary"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ready to focus"
+        android:textSize="18sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="center"/>
+
+    <!-- Current task -->
+
+    <TextView
+        android:id="@+id/txtCurrentTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Current Task"
+        android:textSize="14sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="StudyHub POE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_primary"
+        android:gravity="center"/>
+
+    <!-- Controls -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="▶"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/purple_primary"/>
+
+    </LinearLayout>
+
+</LinearLayout>
