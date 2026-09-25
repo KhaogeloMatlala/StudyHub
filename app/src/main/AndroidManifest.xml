@@ -12,6 +12,9 @@
         android:theme="@style/Theme.StudyHub"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".ExamActivity"
+            android:exported="false" />
+        <activity
             android:name=".SubjectsActivity"
             android:exported="false" />
         <activity

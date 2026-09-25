@@ -11,7 +11,7 @@ class FocusActivity : AppCompatActivity() {
     private lateinit var txtTimer: TextView
     private lateinit var txtStatus: TextView
     private lateinit var btnStart: Button
-    private lateinit var btnReset: Button
+    private lateinit var btnReset: android.widget.ImageButton
 
     private var timer: CountDownTimer? = null
 

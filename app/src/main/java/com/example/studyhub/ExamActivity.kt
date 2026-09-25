@@ -46,7 +46,7 @@ class ExamActivity : AppCompatActivity() {
             addExam()
         }
 
-        loadExams()
+        // loadExams()
     }
 
     private fun addExam() {
