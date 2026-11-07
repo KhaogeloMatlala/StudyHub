@@ -169,31 +169,31 @@ Registration
 
 Dashboard
 
-"StudyHub Dashboard" (screenshots/dashboard.png)
+"StudyHub Dashboard" (screenshots/dashboard.png.jpg)
 
 Tasks
 
-"StudyHub Tasks" (screenshots/tasks.png)
+"StudyHub Tasks" (screenshots/tasks.png.jpg)
 
 Subjects
 
-"StudyHub Subjects" (screenshots/subjects.png)
+"StudyHub Subjects" (screenshots/subjects.png.jpg)
 
 Exams
 
-"StudyHub Exams" (screenshots/exams.png)
+"StudyHub Exams" (screenshots/exams.png.jpg)
 
 Calendar
 
-"StudyHub Calendar" (screenshots/calendar.png)
+"StudyHub Calendar" (screenshots/calendar.png.jpg)
 
 Focus Timer
 
-"StudyHub Focus Timer" (screenshots/focus.png)
+"StudyHub Focus Timer" (screenshots/focus.png.jpg)
 
 Progress
 
-"StudyHub Progress" (screenshots/progress.png)
+"StudyHub Progress" (screenshots/progress.png.jpg)
 
 
 ---
