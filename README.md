@@ -592,7 +592,8 @@ A separate "RELEASE_NOTES.md" file should provide the detailed version history a
 The video presentation demonstrates the StudyHub application and explains its main functionality.
 
 Video Link:
-"Watch the StudyHub Video Presentation" (https://youtube.com/shorts/ihqA0jQDwOA?si=qXBmA_MvUxK4tG5b)
+"Watch the StudyHub Video Presentation" 
+https://youtube.com/shorts/ipMrTkEMIXc?si=MvGMFHYcBW2IomA4
 
 The final assessment video must include a voice-over explaining the application and demonstrating an understanding of its features and implementation.
 
